@@ -9,7 +9,7 @@
 </head>
 <body>
     <header class="container">
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg fixed-top bg-light">
             <div class="container">
                 <img src="./images/logo.png" alt="">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,13 +21,13 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Shoes</a>
+                    <a class="nav-link" href="#shoes">Shoes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Backpack</a>
+                    <a class="nav-link" href="#backpac">Backpack</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Subscribe</a>
+                    <a class="nav-link" href="#subscribe">Subscribe</a>
                   </li>
                  
                  
@@ -132,7 +132,7 @@
         <!-- categories End -->
 
         <!-- shoes section start -->
-        <section class="container my-5" >
+        <section class="container my-5" id="shoes" >
             <h1>Shoes</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 
@@ -181,7 +181,7 @@
         <!-- shoes section end -->
 
         <!-- bag section start -->
-        <section class="container my-5" >
+        <section class="container my-5" id="backpac" >
             <h1>Backpac</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 
@@ -227,8 +227,24 @@
               </div>
         </section>
         <!-- bag section end -->
-
+        <!-- Subscribe start -->
+        <section style="height:300px ;" class="container  rounded-3 d-flex justify-content-center align-items-center bg-info" id="subscribe">
+            <div>
+            <h2>Let's Stay In Touch</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <form>
+                <div class="mb-1">
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <button type="submit" class="btn btn-warning">Submit</button>
+              </form>
+            </div>
+        </section>
     </main> 
+<footer class="mt-5 text-center" >
+    <p ><small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, tempora.</small></p>
+</footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
